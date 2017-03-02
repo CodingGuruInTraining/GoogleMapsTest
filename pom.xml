@@ -8,6 +8,19 @@
     <artifactId>GoogleMapsTest</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
     <dependencies>
 
         <dependency>
@@ -15,6 +28,18 @@
             <artifactId>google-maps-services</artifactId>
             <version>0.1.15</version>
         </dependency>
+
+
+        <dependency>
+            2
+            <groupId>com.google.code.geocoder-java</groupId>
+            3
+            <artifactId>geocoder-java</artifactId>
+            4
+            <version>0.15</version>
+            5
+        </dependency>
+
 
     </dependencies>
 
